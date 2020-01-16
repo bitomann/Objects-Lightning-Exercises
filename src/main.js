@@ -87,3 +87,35 @@ console.log(empireStateBuilding["owner"]);
 console.log(empireStateBuilding["architect"]);
 
 
+const nashvilleSoftwareSchool = {
+    founded: 2012,
+    director: "John Wark",
+    instructors: {
+        fullTime: ["Jisie", "Brenda", "Steve", "Joe", "Andy"],
+        partTime: ["Zoe", "Nathan"]
+    },
+    address: "500 Interstate Blvd. S"
+}
+
+// Lightning Exercise 1: Output the names of the part-time instructors followed by the names of the full-time instructors in the console.
+
+// const partTimeInst = nashvilleSoftwareSchool.instructors.partTime;
+// const fullTimeInst = nashvilleSoftwareSchool.instructors.fullTime;
+// console.log(partTimeInst);
+// console.log(fullTimeInst);
+// ^ Too much code ^
+
+console.log(nashvilleSoftwareSchool.instructors.fullTime);
+console.log(nashvilleSoftwareSchool.instructors.partTime);
+
+
+// Lightning Exercise 2: Output only Andy and Zoe in the console.
+console.log(nashvilleSoftwareSchool.instructors.fullTime[4]);
+console.log(nashvilleSoftwareSchool.instructors.partTime[0]);
+console.log(`The address of NSS is ${nashvilleSoftwareSchool['address']}`)
+
+// or you could interpilate...
+console.log(`Two of the NSS instructors are ${nashvilleSoftwareSchool.instructors.fullTime[4]} and ${nashvilleSoftwareSchool.instructors.partTime[0]}.`)
+
+
+
