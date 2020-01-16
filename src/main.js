@@ -37,5 +37,24 @@ const Ann = {
     relationship: "daughter"
 }
 
-const familyMembers = [Bill, Mo, Joe, Ann]
+const familyMembers = [ Bill, Mo, Joe, Ann ]
 console.log(familyMembers);
+
+
+// Lightning Exercise: Given the object below, output each of the values to the console using dot notation.
+const wardrobe = {
+    height: 80,
+    manufacturer: "Killibrew & Sons",
+    contents: [ "Dress shirt", "Jeans", "Suit", "Skirt", "Tennis shoes" ],
+    depth: 38,
+    width: 50
+}
+console.log(wardrobe.height);
+console.log(wardrobe.tmanufacturer);
+console.log(wardrobe.contents);
+console.log(wardrobe.depth);
+console.log(wardrobe.width);
+
+wardrobe.material = "Cedar",
+console.log(wardrobe)
+
