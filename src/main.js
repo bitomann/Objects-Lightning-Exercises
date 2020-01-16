@@ -37,4 +37,5 @@ const Ann = {
     relationship: "daughter"
 }
 
-const familyMembers = ["Bill", "Mo", "Joe", "Ann"]
+const familyMembers = [Bill, Mo, Joe, Ann]
+console.log(familyMembers);
