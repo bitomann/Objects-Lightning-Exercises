@@ -42,6 +42,8 @@ console.log(familyMembers);
 
 
 // Lightning Exercise: Given the object below, output each of the values to the console using dot notation.
+// dot notation
+
 const wardrobe = {
     height: 80,
     manufacturer: "Killibrew & Sons",
